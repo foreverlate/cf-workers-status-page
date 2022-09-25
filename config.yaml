@@ -27,13 +27,15 @@ monitors:
   - id: wp-jjdemosite-xyz
     name: wp.jjdemosite.xyz
     description: 'Test wordpress site.'
-    url: 'https://wp.jjdemosite.xyz'
+    url: 'https://wp.jjdemosite.xyz/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
+  - id: saas-beyondlious-com
     name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    description: 'SSL for SaaS site.'
+    url: 'https://saas.beyondlious.com/'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
